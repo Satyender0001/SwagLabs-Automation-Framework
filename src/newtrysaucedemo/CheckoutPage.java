@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class CheckoutPage {
 
-    // Method jo check out ki screen par details fill karega
+    
     public static void fillDetails(WebDriver driver, String firstName, String lastName, String postalCode) throws InterruptedException {
         driver.findElement(By.name("firstName")).sendKeys(firstName);
         Thread.sleep(200);
